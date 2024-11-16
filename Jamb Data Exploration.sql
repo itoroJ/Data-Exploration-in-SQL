@@ -97,7 +97,3 @@ SELECT Student_ID, JAMB_Score, Attendance_Rate, Study_Hours_Per_Week
 FROM TopStudents
 WHERE score_quartile = 1 AND attendance_quartile = 1
 ORDER BY Study_Hours_Per_Week DESC;
-
-
-
-
